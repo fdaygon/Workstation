@@ -22,6 +22,8 @@ vim.opt.colorcolumn = "0"
 
 vim.opt.lazyredraw = true
 
+vim.opt.laststatus = 3
+
 local format_sync_grp = vim.api.nvim_create_augroup("GoImport", {})
 vim.api.nvim_create_autocmd("BufWritePre", {
   pattern = "*.go",
