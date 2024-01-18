@@ -2,8 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="$HOME/Workstation/.oh-my-zsh"
-export ZDOTDIR=~/Workstation
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -101,4 +100,3 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 eval "$(starship init zsh)"
-export XDG_CONFIG_HOME=~/Workstation/.config/nvim/init.vim
