@@ -50,7 +50,7 @@ return {
 		}
 
 		local function footer()
-			return "There is nothing impossible to they who will try."
+			return "There is nothing impossible to those who will try."
 		end
 
 		dashboard.section.footer.val = footer()
